@@ -37,6 +37,8 @@ public class PriorityQueueExample {
 		System.out.println(ele);
 
 		ele = q.remove();
+		
+		System.out.println(q);
 
 		System.out.println(ele);
 

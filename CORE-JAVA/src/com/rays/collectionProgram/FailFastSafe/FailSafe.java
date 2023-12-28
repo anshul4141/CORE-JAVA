@@ -15,16 +15,18 @@ public class FailSafe {
 
 		l.addElement(5);
 		l.addElement(4);
+		l.addElement("Anshul");
+		l.addElement("Prajapati");
 
 		Enumeration e = l.elements();
-		
+
 		l.add(5);
-		//l.remove(1);
-		
+		l.remove(0);
+
 		while (e.hasMoreElements()) {
-			
+
 			System.out.println(e.nextElement());
-			
+
 		}
 
 	}

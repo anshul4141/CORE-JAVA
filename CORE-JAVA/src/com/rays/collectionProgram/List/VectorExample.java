@@ -44,6 +44,7 @@ public class VectorExample {
 		System.out.println("----------------------");
 
 		v.setElementAt("Anjali", 0);
+		//v.add(0, "dfgdf");
 
 		System.out.println(v);
 

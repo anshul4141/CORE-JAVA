@@ -16,9 +16,11 @@ public class PrimeNo {
 
 		}
 		if (count == 0) {
+
 			System.out.println("prime");
 
-		}else {
+		} else {
+
 			System.out.println("not prime");
 		}
 

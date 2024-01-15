@@ -1,6 +1,5 @@
 package com.rays.StreamAPIProgram;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -10,7 +9,8 @@ public class SteamStartWithT {
 
 		List<String> list = Arrays.asList("Tkh", "Tkjh", "Ahgvh", "Njgj");
 
-		list.stream().filter(e -> e.startsWith("T")).distinct().sorted().forEach(System.out::println);
+		list.stream().map(e -> e.toUpperCase()).filter(e -> e.startsWith("T")).distinct().sorted()
+				.forEach(System.out::println);
 
 	}
 

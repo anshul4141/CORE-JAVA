@@ -17,10 +17,10 @@ public class StreamHighestSalary {
 		list.add(3000);
 
 		System.out.println("first highest");
-		list.stream().sorted(Collections.reverseOrder()).findFirst().ifPresent(e -> System.out.println(e));
+		list.stream().distinct().sorted(Collections.reverseOrder()).findFirst().ifPresent(e -> System.out.println(e));
 
 		System.out.println("second highest");
-		list.stream().sorted(Collections.reverseOrder()).skip(1).findFirst().ifPresent(System.out::println);
+		list.stream().distinct().sorted(Collections.reverseOrder()).skip(1).findFirst().ifPresent(System.out::println);
 
 	}
 

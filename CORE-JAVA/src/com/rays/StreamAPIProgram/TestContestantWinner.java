@@ -9,7 +9,7 @@ public class TestContestantWinner {
 
 	public static void main(String[] args) {
 
-		List<ContestantWinner> list = new ArrayList();
+		List<ContestantWinner> list = new ArrayList<ContestantWinner>();
 
 		list.add(new ContestantWinner("8985878546", "Anshul"));
 		list.add(new ContestantWinner("7596325878", "Ramdulera"));

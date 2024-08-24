@@ -2,6 +2,7 @@ package com.rays.oopProgram;
 
 public class Circle extends Shape {
 
+	//circle class
 	public int r;
 
 	public Circle() {

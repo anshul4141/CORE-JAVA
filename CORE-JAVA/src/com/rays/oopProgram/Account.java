@@ -2,6 +2,8 @@ package com.rays.oopProgram;
 
 public class Account {
 
+	// acount class
+
 	double balance;
 
 	public Account(double ammount) {

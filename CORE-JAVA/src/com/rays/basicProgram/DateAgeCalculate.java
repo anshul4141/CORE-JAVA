@@ -5,6 +5,7 @@ import java.time.Period;
 
 public class DateAgeCalculate {
 
+// here is a code of age cal
 	public static void main(String[] args) {
 
 		LocalDate today = LocalDate.now();
